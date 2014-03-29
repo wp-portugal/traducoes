@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: BuddyPress-pt_PT 1.9.2\n"
 "Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2014-03-20 08:33:45+00:00\n"
-"PO-Revision-Date: 2014-03-24 11:19-0000\n"
-"Last-Translator: João Bernardino <bernardino.joao@gmail.com>\n"
+"PO-Revision-Date: 2014-03-29 16:31-0000\n"
+"Last-Translator: WordPress Portugal <http;//wp-portugal.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: bp-members/admin/bp-members-classes.php:102
@@ -40,7 +40,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:1263
 msgid "Search Pending Accounts"
-msgstr "A pesquisar Contas Pendentes "
+msgstr "A pesquisar registos pendentes"
 
 #: tests/testcases/xprofile/activity.php:356
 msgid "%s&#8217;s profile was updated"
@@ -53,12 +53,12 @@ msgstr "O utilizador não pôde ser criado"
 #: bp-members/admin/bp-members-classes.php:131
 #: bp-members/admin/bp-members-classes.php:434
 msgid "Last Sent"
-msgstr "Último Enviado"
+msgstr "Último envio"
 
 #: bp-members/admin/bp-members-classes.php:132
 #: bp-members/admin/bp-members-classes.php:435
 msgid "# Times Emailed"
-msgstr "Email Enviado # Vezes"
+msgstr "Email enviado # vezes"
 
 #: bp-members/admin/bp-members-classes.php:143
 #: bp-members/admin/bp-members-classes.php:446
@@ -70,51 +70,48 @@ msgstr "Activar"
 #: bp-members/admin/bp-members-classes.php:447
 msgctxt "Pending signup action"
 msgid "Email"
-msgstr "Endereço de email"
+msgstr "Email"
 
 #: bp-members/admin/bp-members-classes.php:162
 #: bp-members/admin/bp-members-classes.php:465
 msgid "No pending accounts found."
-msgstr "Não foram encontradas contas pendentes."
+msgstr "Não foram encontrados registos pendentes."
 
 #: bp-members/bp-members-admin.php:185 bp-members/bp-members-admin.php:186
 msgid "Manage Signups"
-msgstr "Gerir Adesões"
+msgstr "Gerir adesões"
 
 #: bp-members/bp-members-admin.php:869
 msgctxt "Pending Accounts per page (screen options)"
 msgid "Pending Accounts"
-msgstr "Contas Pendentes"
+msgstr "Registos pendentes"
 
 #: bp-members/bp-members-admin.php:875
 msgid "This is the admininistration screen for pending accounts on your site."
-msgstr ""
-"Este é o ecrã de administração das contas contas pendentes no seu sítio."
+msgstr "Esta é a página de administração dos registos pendentes no seu site."
 
 #: bp-members/bp-members-admin.php:876
 msgid ""
 "From the screen options, you can customize the displayed columns and the "
 "pagination of this screen."
 msgstr ""
-"Pelo ecrã das opções pode personalizar as colunas mostradas e a paginação "
-"deste ecrã."
+"Nas opções da página pode personalizar as colunas mostradas e a paginação."
 
 #: bp-members/bp-members-admin.php:877
 msgid ""
 "You can reorder the list of your pending accounts by clicking on the "
 "Username, E-mail or Registered column headers."
 msgstr ""
-"Pode reordenar a listagem das suas contas pendentes clicando nos cabeçalhos "
-"das colunas Nome do Utilizador, Email ou Registado. "
+"Pode reordenar a listagem dos seus registos pendentes, clicando nos "
+"cabeçalhos das colunas Nome do utilizador, Email ou Registado. "
 
 #: bp-members/bp-members-admin.php:878
 msgid ""
 "Using the search form, you can find pending accounts more easily. The "
 "Username and E-mail fields will be included in the search."
 msgstr ""
-"Usando o formulário de pesquisa, pode encontrar contas pendentes mais "
-"facilemente. Os campos Nome do Utilizador e Email serão incluídos na "
-"pesquisa."
+"Usando o formulário de pesquisa, pode encontrar registos pendentes mais "
+"facilmente. Os campos Nome do utilizador e Email serão incluídos na pesquisa."
 
 #: bp-members/bp-members-admin.php:885
 msgid ""
@@ -122,9 +119,9 @@ msgid ""
 "that allow you to manage pending accounts. You can perform the following "
 "actions:"
 msgstr ""
-"Passando o cursor sobre uma linha na listagem das contas pendentes irá "
-"mostrar hiperlinks de acção que lhe permitem gerir as contas pendentes. Pode "
-"executar as acções seguintes:"
+"Pairando sobre uma linha na listagem de registos pendentes irá mostrar links "
+"de acção que lhe permitem gerir os registos pendentes. Pode executar as "
+"seguintes acções:"
 
 #: bp-members/bp-members-admin.php:886
 msgid ""
@@ -132,31 +129,32 @@ msgid ""
 "activation link to the desired pending account. You can only send the "
 "activation email once per day."
 msgstr ""
-"\"Email\" leva-o ao ecrã de confirmação antes de ser possível enviar a "
-"hiperligação de activação à conta pendente pretendida. Só pode enviar o "
-"email de activação uma vez por dia."
+"\"Email\" leva-o à página de confirmação antes de ser possível enviar o link "
+"de activação ao registo pendente pretendido. Só pode enviar o email de "
+"activação uma vez por dia."
 
 #: bp-members/bp-members-admin.php:887
 msgid ""
 "\"Delete\" allows you to delete a pending account from your site. You will "
 "be asked to confirm this deletion."
 msgstr ""
-"\"Eliminar\" permite-lhe apagar uma conta pendente do seu sítio. Irá ser-lhe "
-"pedido para confirmar esta delecção."
+"\"Eliminar\" permite-lhe apagar um registo pendente do seu site. Irá ser-lhe "
+"pedido para confirmar esta eliminação."
 
 #: bp-members/bp-members-admin.php:888
 msgid ""
 "By clicking on a Username you will be able to activate a pending account "
 "from the confirmation screen."
 msgstr ""
-"Ao clicar num Nome de Utilizador poderá activar uma conta pendente no ecrã "
-"de confirmação."
+"Ao clicar num nome de utilizador poderá activar um registo pendente na "
+"página de confirmação."
 
 #: bp-members/bp-members-admin.php:889
 msgid ""
 "Bulk actions allow you to perform these 3 actions for the selected rows."
 msgstr ""
-"Acções em pacote permitem executar estas 3 acções nas linhas seleccionadas."
+"As acções por lotes permitem-lhe executar estas 3 acções nas linhas "
+"seleccionadas."
 
 #: bp-members/bp-members-admin.php:1041
 msgctxt "signup resent"
@@ -202,19 +200,19 @@ msgstr[1] "%s adesões não foram eliminadas."
 
 #: bp-members/bp-members-admin.php:1143
 msgid "There was a problem sending the activation emails, please try again."
-msgstr "Houve um problema ao enviar os emails de activação, tente novamente."
+msgstr "Ocorreu um problema ao enviar os emails de activação, tente novamente."
 
 #: bp-members/bp-members-admin.php:1150
 msgid "There was a problem activating accounts, please try again."
-msgstr "Houve um problema ao activar contas, tente novamente."
+msgstr "Ocorreu um problema ao activar contas, tente novamente."
 
 #: bp-members/bp-members-admin.php:1157
 msgid "There was a problem deleting sign-ups, please try again."
-msgstr "Houve um problema ao eliminar adesões, tente novamente."
+msgstr "Ocorreu um problema ao eliminar adesões, tente novamente."
 
 #: bp-members/bp-members-admin.php:1309
 msgid "Delete Pending Accounts"
-msgstr "Eliminar Contas Pendentes"
+msgstr "Eliminar registos pendentes"
 
 #: bp-members/bp-members-admin.php:1310
 msgid "You are about to delete the following account:"
@@ -224,7 +222,7 @@ msgstr[1] "Vai eliminar as seguintes contas: "
 
 #: bp-members/bp-members-admin.php:1314
 msgid "Activate Pending Accounts"
-msgstr "Activar Contas Pendentes"
+msgstr "Activar registos pendentes"
 
 #: bp-members/bp-members-admin.php:1315
 msgid "You are about to activate the following account:"
@@ -234,18 +232,18 @@ msgstr[1] "Vai activar as seguintes contas:"
 
 #: bp-members/bp-members-admin.php:1319
 msgid "Resend Activation Emails"
-msgstr "Reenviar Emails de Activação"
+msgstr "Re-enviar emails de activação"
 
 #: bp-members/bp-members-admin.php:1320
 msgid "You are about to resend an activation email to the following account:"
 msgid_plural ""
 "You are about to resend activation emails to the following accounts:"
-msgstr[0] "Vai reenviar um email de activação para a seguinte conta:"
-msgstr[1] "Vai reenviar emails de activação para as seguintes contas:"
+msgstr[0] "Vai re-enviar um email de activação para a seguinte conta:"
+msgstr[1] "Vai re-enviar emails de activação para as seguintes contas:"
 
 #: bp-members/bp-members-admin.php:1359
 msgid "Last notified: %s"
-msgstr "Útimo avisado: %s"
+msgstr "Última notificação: %s"
 
 #: bp-members/bp-members-admin.php:1362
 msgid "(less than 24 hours ago)"
@@ -278,7 +276,7 @@ msgstr "O utilizador já está activo."
 
 #: bp-members/bp-members-functions.php:1531
 msgid "The site is already active."
-msgstr "O sítio já está activo."
+msgstr "O site já está activo."
 
 #: bp-members/bp-members-functions.php:1578
 msgid "That username is already activated."
@@ -286,7 +284,7 @@ msgstr "Esse nome de utilizador já está activado. "
 
 #: bp-core/bp-core-admin.php:270 bp-core/bp-core-admin.php:271
 msgid "Available Tools"
-msgstr "Ferramentas Disponíveis"
+msgstr "Ferramentas disponíveis"
 
 #: bp-core/admin/bp-core-tools.php:210
 msgid "Counting the number of groups for each user&hellip; %s"
@@ -294,7 +292,7 @@ msgstr "A contar o número de grupos de cada utilizador&hellip; %s"
 
 #: bp-core/admin/bp-core-tools.php:247
 msgid "Counting the number of active members on the site&hellip; %s"
-msgstr "A contar o número de membros activos no sítio&hellip; %s"
+msgstr "A contar o número de membros activos no site&hellip; %s"
 
 #: bp-core/admin/bp-core-tools.php:345
 msgctxt "buddypress tools intro"
@@ -312,9 +310,9 @@ msgid ""
 "activity items. Occasionally these relationships become out of sync, most "
 "often after an import, update, or migration."
 msgstr ""
-"BuddyPress memoriza várias associações entre utilizadores, grupos e items de "
-"actividade. Ocasionalmente estas associações ficam dessincronizadas, muitas "
-"vezes depois de uma importação, actualização ou migração. "
+"O BuddyPress memoriza várias associações entre utilizadores, grupos e items "
+"de actividade. Ocasionalmente estas associações ficam dessincronizadas, "
+"muitas vezes depois de uma importação, actualização ou migração."
 
 #: bp-core/admin/bp-core-tools.php:23
 msgid "Use the tools below to manually recalculate these relationships."
@@ -331,11 +329,11 @@ msgstr ""
 
 #: bp-core/admin/bp-core-tools.php:31
 msgid "Data to Repair:"
-msgstr "Data para Reparar:"
+msgstr "Dados  a reparar:"
 
 #: bp-core/admin/bp-core-tools.php:49
 msgid "Repair Items"
-msgstr "Reparar Itens"
+msgstr "Reparar itens"
 
 #: bp-core/admin/bp-core-tools.php:105
 msgid "Count total members"
@@ -355,15 +353,15 @@ msgstr "A contar o número de amigos de cada utilizador&hellip; %s"
 
 #: bp-groups/bp-groups-actions.php:197 bp-groups/bp-groups-screens.php:472
 msgid "Invite successfully removed"
-msgstr "Convite removido com êxito"
+msgstr "Convite removido com sucesso"
 
 #: bp-groups/bp-groups-actions.php:201 bp-groups/bp-groups-screens.php:483
 msgid "There was an error removing the invite"
-msgstr "Houve um erro ao remover o convite"
+msgstr "Ocorreu um erro ao remover o convite"
 
 #: bp-groups/bp-groups-screens.php:477
 msgid "You are not allowed to send or remove invites"
-msgstr "Não lhe é permitido enviar or remover convites"
+msgstr "Não tem permissões para enviar or remover convites"
 
 #: bp-groups/bp-groups-screens.php:480
 msgid "The member requested to join the group"
@@ -387,7 +385,7 @@ msgstr "Directório"
 #: bp-activity/bp-activity-loader.php:109
 msgctxt "component directory title"
 msgid "Sitewide Activity"
-msgstr "Actividade Geral do Sítio"
+msgstr "Actividade global do site"
 
 #: bp-activity/bp-activity-admin.php:771
 msgid ""
@@ -409,7 +407,7 @@ msgstr "O perfil de %1$s foi actualizado"
 
 #: bp-xprofile/bp-xprofile-activity.php:309
 msgid "Profile Updates"
-msgstr "Actualizações do Perfil"
+msgstr "Actualizações ao perfil"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/profile.php:13
 #: bp-themes/bp-default/members/single/settings/profile.php:63
@@ -430,12 +428,13 @@ msgstr "A visibilidade deste campo não pode ser alterada."
 
 #: bp-activity/bp-activity-filters.php:541
 msgid "Load Newest"
-msgstr "Carregar o Mais Recente"
+msgstr "Carregar mais recentes"
 
 #: bp-core/admin/bp-core-settings.php:115
 msgid "Automatically check for new items while viewing the activity stream"
 msgstr ""
-"Verificar automaticamente por itens novos enquanto vê o fluxo de actividade"
+"Verificar automaticamente por itens novos na visualização do fluxo de "
+"actividade"
 
 #: bp-core/bp-core-admin.php:378
 msgid "Activity auto-refresh"
@@ -443,7 +442,7 @@ msgstr "Auto refrescamento da actividade"
 
 #: bp-groups/bp-groups-template.php:2390
 msgid "Oldest"
-msgstr "Os mais antigos"
+msgstr "Mais antigos"
 
 #: bp-members/bp-members-functions.php:939
 msgid ""
@@ -478,7 +477,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:596
 msgid "User account has not yet been activated"
-msgstr "a conta do utilizador ainda não foi activada"
+msgstr "A conta do utilizador ainda não foi activada"
 
 #: bp-members/bp-members-admin.php:652 bp-xprofile/bp-xprofile-admin.php:881
 msgid ""
@@ -491,8 +490,8 @@ msgstr ""
 #: bp-blogs/bp-blogs-template.php:1288
 msgid "%s site"
 msgid_plural "%s sites"
-msgstr[0] "%s sítio"
-msgstr[1] "%s sítios"
+msgstr[0] "%s site"
+msgstr[1] "%s sites"
 
 #: bp-friends/bp-friends-template.php:588
 msgid "%s friend"
@@ -516,11 +515,11 @@ msgstr "Perfil WordPress"
 
 #: bp-members/bp-members-admin.php:302
 msgid "Community Profile"
-msgstr "Perfil da Comunidade"
+msgstr "Perfil na comunidade"
 
 #: bp-members/bp-members-admin.php:323
 msgid "No users were found"
-msgstr "Sem utilizadores encontrados"
+msgstr "Não foram encontrados utilizadores"
 
 #: bp-members/bp-members-admin.php:357
 msgid "This is the admin view of a user&#39;s profile."
@@ -532,7 +531,7 @@ msgid ""
 "managing-user-profiles/\">Managing Profiles</a>"
 msgstr ""
 "<a href=\"http://codex.buddypress.org/buddypress-site-administration/"
-"managing-user-profiles/\">Gerindo Perfis</a>"
+"managing-user-profiles/\">Gestão de perfis</a>"
 
 #: bp-members/bp-members-admin.php:370
 msgctxt "members user-admin edit screen"
@@ -541,15 +540,15 @@ msgstr "Estado"
 
 #: bp-members/bp-members-admin.php:448
 msgid "Avatar was deleted successfully!"
-msgstr "O avatar foi eliminado com êxito!"
+msgstr "O avatar foi eliminado com sucesso!"
 
 #: bp-members/bp-members-admin.php:466
 msgid "Profile updated."
-msgstr "O perfil foi actualizado."
+msgstr "Perfil actualizado."
 
 #: bp-members/bp-members-admin.php:483
 msgid "User could not be removed as spammer."
-msgstr "O utilizador não pôde ser eliminado como <em>spammer</em>."
+msgstr "O utilizador não pôde ser desmarcado como <em>spammer</em>."
 
 #: bp-members/bp-members-admin.php:489
 msgid "User could not be marked as spammer."
@@ -561,35 +560,35 @@ msgstr "Ocorreu um erro ao tentar actualizar o perfil."
 
 #: bp-members/bp-members-admin.php:521
 msgid "&larr; Back to Users"
-msgstr "&larr; Voltar aos Utilizadores"
+msgstr "&larr; Voltar aos utilizadores"
 
 #: bp-members/bp-members-admin.php:530
 msgid "Edit User"
-msgstr "Editar Utilizador"
+msgstr "Editar utilizador"
 
 #: bp-members/bp-members-admin.php:532 bp-members/bp-members-admin.php:1246
 msgctxt "user"
 msgid "Add New"
-msgstr "Adicionar Novo"
+msgstr "Adicionar novo"
 
 #: bp-members/bp-members-admin.php:534 bp-members/bp-members-admin.php:1248
 msgctxt "user"
 msgid "Add Existing"
-msgstr "Adicionar Existente"
+msgstr "Adicionar existente"
 
 #: bp-members/bp-members-admin.php:569
 msgid "No user found with this ID. <a href=\"%s\">Go back and try again</a>."
 msgstr ""
-"Sem utilizador encontrado com esta ID. <a href=\"%s\">Volte e tente "
+"Nenhum utilizador encontrado com esta ID. <a href=\"%s\">Volte atrás e tente "
 "novamente</a>."
 
 #: bp-members/bp-members-admin.php:605
 msgid "View Profile"
-msgstr "Ver Perfil"
+msgstr "Ver perfil"
 
 #: bp-members/bp-members-admin.php:614
 msgid "Spammer"
-msgstr "<em>Spammer</em>"
+msgstr "Spammer"
 
 #: bp-members/bp-members-admin.php:623
 msgid "Registered on: <strong>%1$s</strong>"
@@ -597,16 +596,16 @@ msgstr "Registado em: <strong>%1$s</strong>"
 
 #: bp-members/bp-members-admin.php:632
 msgid "Update Profile"
-msgstr "Actualizar Perfil"
+msgstr "Actualizar perfil"
 
 #: bp-members/bp-members-admin.php:683
 msgid "Last active: <strong>%1$s</strong>"
-msgstr "Último activo: <strong>%1$s</strong>"
+msgstr "Actividade mais recente: <strong>%1$s</strong>"
 
 #: bp-xprofile/bp-xprofile-admin.php:562
 msgctxt "xprofile user-admin edit screen"
 msgid "User marked as a spammer"
-msgstr "O utilizador foi marcado como <em>spammer</em>"
+msgstr "Utilizador marcado como spammer"
 
 #: bp-xprofile/bp-xprofile-admin.php:566
 msgctxt "xprofile user-admin edit screen"
@@ -627,7 +626,7 @@ msgstr "Mensagens <span class=\"%s\">%s</span>"
 
 #: bp-notifications/bp-notifications-loader.php:111
 msgid "Notifications <span class=\"%s\">%s</span>"
-msgstr "Avisos <span class=\"%s\">%s</span>"
+msgstr "Notificações <span class=\"%s\">%s</span>"
 
 #: bp-core/bp-core-admin.php:490
 msgid ""
@@ -636,7 +635,7 @@ msgid ""
 "features, enhancements, and bug fixes."
 msgstr ""
 "É uma grande altura para usar o BuddyPress! %s é a nossa primeira versão com "
-"um novo componente em mais de dois anos. Não somente, há muitas "
+"um novo componente em mais de dois anos. Além disso, existem agora muitas "
 "funcionalidades novas, melhoramentos e correcções de erros."
 
 #: bp-core/bp-core-admin.php:492
@@ -645,9 +644,9 @@ msgid ""
 "in over two years. Not only that, there are plenty of new features, "
 "enhancements, and bug fixes."
 msgstr ""
-"Obrigado por actualizar! BuddypPress %s é a nossa primeira versão com um "
-"novo componente em mais de dois anos. Não somente, há muitas funcionalidades "
-"novas, melhoramentos e correcções de erros."
+"Obrigado por actualizar! O BuddypPress %s é a nossa primeira versão com um "
+"novo componente em mais de dois anos. Além disso, existem agora muitas "
+"funcionalidades novas, melhoramentos e correcções de erros."
 
 #: bp-core/bp-core-admin.php:497
 msgid "Check out the highlights:"
@@ -656,22 +655,19 @@ msgstr "Veja os destaques:"
 #: bp-core/bp-core-admin.php:500
 msgid "You can now add dynamic BuddyPress links to custom navigation menus."
 msgstr ""
-"Agora pode adicionar hiperligações BuddyPress aos menus de navegação "
-"personalizáveis."
+"Já pode adicionar links de BuddyPress aos menus de navegação personalizáveis."
 
 #: bp-core/bp-core-admin.php:501
 msgid "Notifications have been moved into their own component."
-msgstr "Os avisos foram movidos para o seu componente próprio."
+msgstr "As notificações foram movidas para o um componente próprio."
 
 #: bp-core/bp-core-admin.php:502
 msgid "Three new widgets, allowing easier site customization."
-msgstr ""
-"Três <em>widgets</em> novos, permitindo uma personalização mais fácil do "
-"sítio."
+msgstr "Três widgets novos, permitindo uma personalização mais fácil do site."
 
 #: bp-core/bp-core-admin.php:547
 msgid "Dynamic links for custom navigation menus"
-msgstr "Hiperligações dinâmicas para menus de navegaçãom personalizáveis"
+msgstr "Links dinâmicos para menus de navegação personalizáveis"
 
 #: bp-core/bp-core-admin.php:550
 msgid ""
@@ -680,15 +676,14 @@ msgid ""
 "link to a specific user profile screen, and each person will end up at that "
 "screen inside their own user profile."
 msgstr ""
-"É agora fácil adicionar hiperligações específicas do BuddyPress aos seus "
-"menus através de <a href=\"%s\">Aspecto &gt; Menus</a>. Por exemplo, pode "
-"agora adicionar uma hiperligação a um ecrã de perfil de utilizador "
-"específico e cada pessoa poderá ir até esse ecrã do interior do seu próprio "
-"perfil. "
+"É agora fácil adicionar links específicos do BuddyPress aos seus menus, em "
+"<a href=\"%s\">Aparência &gt; Menus</a>. Por exemplo, pode agora adicionar "
+"um link para uma página de perfil de utilizador específico, em que cada "
+"pessoa poderá visitar essa página, a partir do seu próprio perfil. "
 
 #: bp-core/bp-core-admin.php:556
 msgid "Notifications component"
-msgstr "Componente de avisos"
+msgstr "Componente de notificações"
 
 #: bp-core/bp-core-admin.php:559
 msgid ""
@@ -696,54 +691,54 @@ msgid ""
 "keep your site&#8217;s members abreast of the latest connections and "
 "@mentions within the site, via email notifications and Toolbar alerts."
 msgstr ""
-"As funcionalidades de avisos foram promovidas a um novo componente. Use-o "
-"para manter os utilizadores do seu sítio a par das últimas conexões e "
-"menções dentro do sítio, via avisos de email e alertas na Barra de "
-"Ferramentas."
+"As funcionalidades de notificações foram promovidas a novo componente. Use-o "
+"para manter os utilizadores do seu site a par das últimas conexões e "
+"@menções, através avisos de email e alertas na barra de ferramentas."
 
 #: bp-core/bp-core-admin.php:570
 msgid ""
 "<strong>Friends Widget</strong>: a list of recently active, popular, and "
 "newest friends of the displayed member."
 msgstr ""
-"<strong><em>Widget</em> Amigos</strong>: uma lista dos amigos do membro "
-"mostrado recentemente activos, populares e mais recentes."
+"<strong>Widget de amigos</strong>: uma lista dos amigos recentemente "
+"activos, populares e mais recentes, do utilizador visualizado."
 
 #: bp-core/bp-core-admin.php:571
 msgid ""
 "<strong>Log In Widget</strong>: adds a simple &ldquo;Log In&rdquo; form to "
 "your site."
 msgstr ""
-"<strong><em>Widget</em> Ligar</strong>: adiciona um formulário &ldquo;"
-"Ligar&rdquo; simples ao seu sítio."
+"<strong>Widget de início de sessão</strong>: adiciona um formulário simples "
+"de &ldquo;Iniciar sessão&rdquo; ao seu site."
 
 #: bp-core/bp-core-admin.php:572
 msgid ""
 "<strong>Sitewide Notices Widget</strong>: display Sitewide Notices from the "
 "Private Messaging component."
 msgstr ""
-"<strong><em>Widget</em> Avisos Gerais do Sítio</strong>: mostra Avisos "
-"Gerais do Sítio a partir do componente Mensagens Privadas."
+"<strong>Widget de notificações globais</strong>: mostra notificações globais "
+"do site, a partir do componente mensagens privadas."
 
 #: bp-core/bp-core-admin.php:579
 msgid "Developer changes"
-msgstr "Modificações de Desenvolvimento"
+msgstr "Modificações para developers"
 
 #: bp-core/bp-core-admin.php:583
 msgid "<code>bp_redirect_canonical()</code> functionality has been reinstated"
-msgstr "funcionalidade <code>bp_redirect_canonical()</code> foi reintroduzida"
+msgstr ""
+"A funcionalidade <code>bp_redirect_canonical()</code> foi reintroduzida"
 
 #: bp-core/bp-core-admin.php:584
 msgid "Improved phpDoc inline documentation"
-msgstr "Documentação phpDoc em linha Melhorada"
+msgstr "A documentação phpDoc em linha foi melhorada"
 
 #: bp-core/bp-core-admin.php:585
 msgid ""
 "Improved compatibility with <a href=\"%s\">develop.svn.wordpress.org</a> "
 "unit-test suite"
 msgstr ""
-"Compatibilidade melhorada com a <em>unit-test suite</em> <a href=\"%s"
-"\">develop.svn.wordpress.org</a> "
+"A compatibilidade com a <em>unit-test suite</em> de <a href=\"%s\">develop."
+"svn.wordpress.org</a> foi melhorada"
 
 #: bp-core/bp-core-admin.php:586
 msgid "<a href=\"%s\">&hellip;and lots more!</a>"
@@ -754,16 +749,16 @@ msgid ""
 "BuddyPress %s is our first version with a new component in over two years. "
 "Not only that, there are plenty of new features, enhancements, and bug fixes."
 msgstr ""
-"BuddyPress %s é a nossa primeira versão com um novo componente em mais de "
-"dois anos. Não somente, há muitas funcionalidades novas, melhoramentos e "
-"correcções de erros."
+"O BuddyPress %s é a nossa primeira versão com um novo componente em mais de "
+"dois anos. Além disso, existem agora muitas funcionalidades novas, "
+"melhoramentos e correcções de erros."
 
 #: bp-core/admin/bp-core-functions.php:305
 msgid ""
 "The following active BuddyPress Components do not have associated WordPress "
 "Pages: %2$s. <a href=\"%1$s\">Repair</a>"
 msgstr ""
-"Os Componentes BuddyPress activos seguintes não têm Páginas WordPress "
+"Os seguintes componentes BuddyPress activos não têm páginas WordPress "
 "associadas: %2$s. <a href=\"%1$s\">Reparar</a>"
 
 #: bp-core/admin/bp-core-functions.php:327
@@ -772,9 +767,9 @@ msgid ""
 "WordPress Pages have more than one component associated with them: %2$s. <a "
 "href=\"%1$s\">Repair</a>"
 msgstr ""
-"Cada Componente BuddyPress precisa da sua própria página WordPress. As "
-"Páginas WordPress seguintes têm mais do que um componente associado com "
-"elas: %2$s. <a href=\"%1$s\">Reparar</a>"
+"Cada componente BuddyPress precisa da sua própria página WordPress. As "
+"páginas WordPress seguintes têm mais do que um componente associado: %2$s. "
+"<a href=\"%1$s\">Reparar</a>"
 
 #: bp-core/bp-core-admin.php:409
 msgid "About BuddyPress"
@@ -958,11 +953,11 @@ msgstr[1] "A ver mensagem %1$s até %2$s (de %3$s mensagens)"
 
 #: bp-messages/bp-messages-widgets.php:34
 msgid "(BuddyPress) Sitewide Notices"
-msgstr "Avisos Gerais do Sítio (BuddyPress)"
+msgstr "Notificações globais (BuddyPress)"
 
 #: bp-messages/bp-messages-widgets.php:37
 msgid "Display Sitewide Notices posted by the site administrator"
-msgstr "Mostrar Avisos Gerais do Sítio publicados pelo administrador do sítio"
+msgstr "Mostraras notificações globais publicadas pelo administrador do site"
 
 #: bp-notifications/bp-notifications-actions.php:43
 msgid "Notification successfully marked read."
@@ -1034,8 +1029,8 @@ msgid ""
 "Registering for this site is easy. Just fill in the fields below, and we'll "
 "get a new account set up for you in no time."
 msgstr ""
-"Registar-se neste sítio é fácil. Preencha os campos abaixo e nós "
-"configuraremos uma conta para si imediatamente. "
+"É fácil registar-se neste site: preencha os campos abaixo para lhe criarmos "
+"imediatamente uma conta. "
 
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:14
 #: bp-themes/bp-default/members/single/groups/invites.php:14
@@ -1131,8 +1126,8 @@ msgstr[1] "A ver item %1$s até %2$s (de %3$s itens)"
 #: bp-blogs/bp-blogs-template.php:439
 msgid "Viewing site %1$s to %2$s (of %3$s site)"
 msgid_plural "Viewing site %1$s to %2$s (of %3$s sites)"
-msgstr[0] "A ver sítio %1$s até %2$s (de %3$s sítio)"
-msgstr[1] "A ver sítio %1$s até %2$s (de %3$s sítios)"
+msgstr[0] "A ver site %1$s até %2$s (de %3$s sites)"
+msgstr[1] "A ver sites %1$s até %2$s (de %3$s sites)"
 
 #: bp-core/admin/bp-core-components.php:68
 #: bp-core/admin/bp-core-components.php:384
@@ -1177,9 +1172,8 @@ msgid ""
 "Note: This component is retired and will not be receiving any updates in the "
 "future.  Only use this component if your current site relies on it."
 msgstr ""
-"Nota: Este componente está descontinuado e não obterá quaisquer "
-"actualizações no futuro. Só use este componente se o seu sítio actual "
-"depender dele."
+"Nota: Este componente foi descontinuado e não obterá quaisquer actualizações "
+"no futuro. Use este componente apenas se o seu site actual depender dele."
 
 #: bp-forums/deprecated/1.6.php:91 bp-forums/deprecated/1.6.php:234
 msgid ""
@@ -1244,7 +1238,7 @@ msgstr "Fluxo de actividade para o grupo, %s."
 
 #: bp-activity/bp-activity-actions.php:440
 msgid "%s | Site Wide Activity"
-msgstr "%s | Actividade Geral do Sítio"
+msgstr "%s | Actividade global do site"
 
 #: bp-activity/bp-activity-classes.php:1372
 msgid "RSS feed 'id' must be defined"
@@ -1252,7 +1246,7 @@ msgstr "A 'id' do fluxo RSS tem de ser definida"
 
 #: bp-activity/bp-activity-actions.php:443
 msgid "Activity feed for the entire site."
-msgstr "Fluxo de actividade para a totalidade do sítio. "
+msgstr "Fluxo de actividade em todo o site."
 
 #: bp-activity/bp-activity-actions.php:470 bp-groups/bp-groups-actions.php:389
 msgid "%1$s | %2$s | Activity"
@@ -1462,11 +1456,11 @@ msgid ""
 msgstr ""
 "À procura de ajuda? O <a href=\"http://codex.buddypress.org/\">Codex "
 "BuddyPress</a> apoia-o, com dúzias de guias de colaboradores utilizadores, "
-"sobre como configurar e utilizar o seu sítio BP. Não encontra aquilo que "
-"precisa? Passe nos <a href=\"http://buddypress.org/support/\">nossos fóruns "
-"de apoio</a>, onde uma comunidade animada de utilizadores e programadores do "
-"BuddyPress o aguardam para partilhar dicas, mostrar os seus sítios, "
-"conversar sobre o futuro do BuddyPress e muito mais."
+"sobre como configurar e utilizar o seu site BP. Não encontra o que precisa? "
+"Passe no <a href=\"http://buddypress.org/support/\">nosso fórum de suporte</"
+"a>, onde uma comunidade animada de utilizadores e programadores do "
+"BuddyPress o aguardam para partilhar dicas, mostrar os seus sites, conversar "
+"sobre o futuro do BuddyPress e muito mais."
 
 #: bp-core/bp-core-admin.php:592 bp-core/bp-core-admin.php:725
 msgid "Go to the BuddyPress Settings page"
@@ -1485,7 +1479,7 @@ msgstr "Grupos"
 #: bp-core/bp-core-functions.php:449
 msgctxt "Page title for the Sites directory."
 msgid "Sites"
-msgstr "Sítios"
+msgstr "Sites"
 
 #: bp-core/bp-core-functions.php:450
 msgctxt "Page title for the user account activation screen."
@@ -1544,8 +1538,8 @@ msgid ""
 "Clicking \"Visit\" will take you to the group&#8217;s public page. Use this "
 "link to see what the group looks like on the front end of your site."
 msgstr ""
-"Ao clicar \"Visitar\" será levado à página pública do grupo. Use esta "
-"hiperligação para ver a aparência que o grupo tem na interface do seu sítio. "
+"Ao clicar \"Visitar\" será levado à página pública do grupo. Use este link "
+"para visualizar o aspecto do grupo no site."
 
 #: bp-groups/bp-groups-admin.php:156
 msgid ""
@@ -1561,8 +1555,8 @@ msgstr ""
 msgid ""
 "If you click \"Delete\" under a specific group, or select a number of groups "
 "and then choose Delete from the Bulk Actions menu, you will be led to a page "
-"where you&#8217;ll be asked to confirm the permanent deletion of the group"
-"(s)."
+"where you&#8217;ll be asked to confirm the permanent deletion of the "
+"group(s)."
 msgstr ""
 "Se clicar \"Eliminar\" sob um determinado grupo ou seleccionar um número de "
 "grupos e depois escolher Eliminar no menu das Acções em Pacote, será levado "
@@ -1659,11 +1653,11 @@ msgid ""
 "installation will continue to function. However, the features of the "
 "disabled components will no longer be accessible to anyone using the site."
 msgstr ""
-"Por defeito, todos os componentes BuddyPress estão ligados. Pode desligar "
-"selectivamente qualquer um dos componentes usando o formulário. A sua "
-"instalação BuddyPress continuará a funcionar. Contudo, as funcionalidades do "
-"componente desligado deixarão de estar acessíveis a quem quer que use o "
-"sítio."
+"Por omissão, todos os componentes BuddyPress estão activos. Pode desligar "
+"selectivamente qualquer um dos componentes usando o formulário, sendo que a "
+"sua instalação BuddyPress continuará a funcionar. No entanto, as "
+"funcionalidades do componente desligado deixarão de estar disponíveis no "
+"site."
 
 #: bp-core/admin/bp-core-functions.php:514
 msgid ""
@@ -2174,12 +2168,12 @@ msgstr ""
 
 #: bp-core/admin/bp-core-components.php:396
 msgid "Record activity for new posts and comments from your site."
-msgstr "Grave a actividade para publicações e comentários no seu sítio."
+msgstr "Grave a actividade para publicações e comentários no seu site."
 
 #: bp-core/admin/bp-core-components.php:403
 msgid "Record activity for new sites, posts, and comments across your network."
 msgstr ""
-"Gravar a actividade para sítios, publicações e comentários novos através da "
+"Gravar a actividade para sites, publicações e comentários novos, em toda a "
 "sua rede."
 
 #: bp-core/admin/bp-core-components.php:355
@@ -2463,10 +2457,10 @@ msgid ""
 "left on a specific site. Some types of activity may only use one, or none, "
 "of these fields."
 msgstr ""
-"<strong>Item Primário/Item Secundário</strong> - Identificam o objecto que "
-"criou a actividade. Por exemplo, os campos podiam referir-se a comentários "
-"deixados no determinado sítio. Alguns tipos de actividade podem usar só um "
-"ou mais, destes campos."
+"<strong>Item primário/item secundário</strong> - Identificam o objecto que "
+"criou a actividade. Por exemplo, os campos podem referir-se a comentários "
+"deixados num site específico. Alguns tipos de actividade poderão usar só um "
+"ou nenhum destes campos."
 
 #: bp-activity/bp-activity-admin.php:237
 msgctxt "activity admin edit screen"
@@ -2490,8 +2484,8 @@ msgid ""
 "For information about when and how BuddyPress uses all of these settings, "
 "see the Managing Activity link in the panel to the side."
 msgstr ""
-"Para informação sobre quando e como o BuddyPress utiliza todas estas "
-"configurações, veja a hiperligação Gerindo Actividade no painel do sítio."
+"Para informação sobre quando e como o BuddyPress utiliza todas estas opções, "
+"visite  página de gestão de actividade, no painel lateral."
 
 #: bp-activity/bp-activity-admin.php:238
 msgctxt "activity admin edit screen"
@@ -2522,9 +2516,9 @@ msgid ""
 "This is useful if you need to change which page the activity links to, or "
 "when you notice that the author has made a typographical error."
 msgstr ""
-"Edita as actividades conduzidas no seu sítio da mesma forma que edita um "
-"comentário. Tal é útil se precisar de alterar qual a página a que liga a "
-"actividade ou quando verifica que o autor cometeu um erro tipográfico. "
+"Edita as actividades no seu site da mesma forma que edita um comentário. Tal "
+"é útil se precisar de alterar qual a página a que liga a actividade, ou "
+"quando verifica que o autor cometeu um erro tipográfico. "
 
 #: bp-activity/bp-activity-admin.php:800
 msgid "Secondary Item ID"
@@ -2536,11 +2530,11 @@ msgid ""
 "fields could reference a pair of site and comment IDs."
 msgstr ""
 "Identificam o objecto que criou esta actividade. Por exemplo, os campos "
-"podem referir-se a um par de IDs sítio e comentário."
+"podem referir-se a um par de IDs site e comentário."
 
 #: bp-activity/bp-activity-template.php:1347
 msgid "Profile picture of the author of the site %s"
-msgstr "Foto do perfil do autor do sítio %s"
+msgstr "Foto do perfil do autor do site %s"
 
 #: bp-activity/bp-activity-admin.php:796
 msgid "Primary Item ID"
@@ -2577,7 +2571,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:504
 msgid "Profile picture of site author %s"
-msgstr "Foto de perfil do autor do sítio %s"
+msgstr "Foto de perfil do autor do site %s"
 
 #: bp-groups/bp-groups-loader.php:306
 msgid "You are not an admin of this group."
@@ -4115,8 +4109,8 @@ msgstr "Foi banido deste grupo."
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:7
 #: bp-themes/bp-default/members/single/settings/general.php:57
 msgid ""
-"Current Password <span>(required to update email or change current password)"
-"</span>"
+"Current Password <span>(required to update email or change current "
+"password)</span>"
 msgstr ""
 "A Senha Actual <span>(obrigatório para actualizar o endereço de email ou "
 "alterar a senha actual)</span> "
