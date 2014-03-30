@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress-pt_PT 1.9.2\n"
 "Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2014-03-20 08:33:45+00:00\n"
-"PO-Revision-Date: 2014-03-29 16:31-0000\n"
+"PO-Revision-Date: 2014-03-30 13:10-0000\n"
 "Last-Translator: WordPress Portugal <http;//wp-portugal.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "Language: pt_PT\n"
@@ -781,9 +781,9 @@ msgid ""
 "direct posting, favoriting, and @mentions, all with full RSS feed and email "
 "notification support."
 msgstr ""
-"Fluxos de actividade global, pessoal e de grupo com comentários encadeados, "
-"publicação directa, favoritos e menções, tudo com fluxos completos RSS e "
-"apoio por avisos de email."
+"Fluxos de actividade globais, pessoais e de grupo, com comentários "
+"encadeados, publicação directa, favoritos e menções, tudo com fluxos "
+"completos RSS e suporte para notificações por email."
 
 #: bp-core/bp-core-admin.php:680
 msgid "Contributors to BuddyPress 1.9"
@@ -982,11 +982,11 @@ msgstr "Houve um problema ao eliminar esse aviso."
 
 #: bp-notifications/bp-notifications-loader.php:86
 msgid "Search Notifications..."
-msgstr "Pesquisar Avisos..."
+msgstr "Pesquisar notificações..."
 
 #: bp-notifications/bp-notifications-loader.php:185
 msgid "Notifications <span class=\"count\">%s</span>"
-msgstr "Avisos <span class=\"count\">%s</span>"
+msgstr "Notificações <span class=\"count\">%s</span>"
 
 #: bp-notifications/bp-notifications-loader.php:186
 msgid "Unread <span class=\"count\">%s</span>"
@@ -1135,9 +1135,9 @@ msgid ""
 "Notify members of relevant activity with a toolbar bubble and/or via email, "
 "and allow them to customize their notification settings."
 msgstr ""
-"Avisar os membros sobre actividade relevante com uma bolha na barra de "
-"ferramentas e/ou via email e permitir-lhes personalizar as suas "
-"configurações de aviso."
+"Notifique os membros sobre actividade relevante, com um indicador na barra "
+"de ferramentas e/ou via email, permitindo-lhes ainda personalizar as suas "
+"configurações de notificações."
 
 #: bp-xprofile/bp-xprofile-classes.php:1031
 msgid "Field Requirement"
@@ -2168,7 +2168,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-components.php:396
 msgid "Record activity for new posts and comments from your site."
-msgstr "Grave a actividade para publicações e comentários no seu site."
+msgstr "Grave a actividade de novas publicações e comentários no seu site."
 
 #: bp-core/admin/bp-core-components.php:403
 msgid "Record activity for new sites, posts, and comments across your network."
@@ -2935,15 +2935,15 @@ msgstr ""
 
 #: bp-forums/deprecated/1.6.php:78 bp-forums/deprecated/1.6.php:220
 msgid "Activity Stream Integration"
-msgstr "Integração de Fluxos de Actividade"
+msgstr "Integração do fluxo de actividade"
 
 #: bp-forums/deprecated/1.6.php:68 bp-forums/deprecated/1.6.php:210
 msgid "Forums for Groups"
-msgstr "Fóruns de Grupos"
+msgstr "Fóruns de grupos"
 
 #: bp-forums/deprecated/1.6.php:77 bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
-msgstr "Integração de Perfil de Membro"
+msgstr "Integração de perfis de membros"
 
 #: bp-forums/deprecated/1.6.php:76 bp-forums/deprecated/1.6.php:218
 msgid "Group Integration"
@@ -3015,9 +3015,9 @@ msgid ""
 "Groups allow your users to organize themselves into specific public, private "
 "or hidden sections with separate activity streams and member listings."
 msgstr ""
-"Os grupos permitem que os seus utilizadores se organizem em secções "
+"Os grupos permitem aos seus utilizadores se organizarem-se em secções "
 "específicas, públicas, privadas ou ocultas, com fluxos de actividade e "
-"listagens de membros distintas."
+"listagens de membros próprias."
 
 #: bp-core/admin/bp-core-components.php:376
 msgid ""
@@ -3025,9 +3025,9 @@ msgid ""
 "limited to one-on-one discussions, messages can be sent between any number "
 "of members."
 msgstr ""
-"Deixe os seus utilizadores falar entre eles directamente e em privado. Sem "
-"estarem somente limitados a conversas um-a-um, as mensagens podem ser "
-"trocadas entre um número variado de membros."
+"Deixe os seus utilizadores falar entre si, directamente e em privado. As "
+"conversas não são apenas limitadas a um interlocutor e podem ser trocadas "
+"entre qualquer número de membros."
 
 #: bp-activity/bp-activity-template.php:266
 msgctxt "Activity pagination previous text"
@@ -3102,12 +3102,12 @@ msgstr "&larr;"
 #: bp-core/admin/bp-core-slugs.php:81
 msgid "Associate a WordPress Page with each BuddyPress component directory."
 msgstr ""
-"Associe uma Página WordPress a cada directório de componente BuddyPress."
+"Associe uma página WordPress a cada directoria de componente BuddyPress."
 
 #: bp-themes/bp-default/index.php:27
 msgctxt "Sticky post"
 msgid "Featured"
-msgstr "Destacado"
+msgstr "Em destaque"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:98
 #: bp-themes/bp-default/forums/index.php:116
@@ -3122,12 +3122,12 @@ msgstr "Em reposta a:"
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:18
 #: bp-themes/bp-default/members/single/messages/single.php:18
 msgid "Conversation between %s and you."
-msgstr "Conversa entre %s e você."
+msgstr "Conversa entre si e %s."
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/single.php:14
 #: bp-themes/bp-default/members/single/messages/single.php:14
 msgid "You are alone in this conversation."
-msgstr "Está sòzinho nesta conversa."
+msgstr "Está sózinho nesta conversa."
 
 #: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:72
 #: bp-themes/bp-default/forums/forums-loop.php:72
@@ -3137,11 +3137,11 @@ msgstr "em %1$s"
 #: bp-templates/bp-legacy/buddypress/forums/forums-loop.php:61
 #: bp-themes/bp-default/forums/forums-loop.php:61
 msgid "Started by %1$s"
-msgstr "Iniciado by %1$s"
+msgstr "Iniciado por %1$s"
 
 #: bp-blogs/bp-blogs-widgets.php:50 bp-blogs/bp-blogs-widgets.php:122
 msgid "Recent Networkwide Posts"
-msgstr "Publicações Recentes em Toda a Rede"
+msgstr "Publicações recentes em toda a rede"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:81
 #: bp-themes/bp-default/groups/single/forum/topic.php:81
@@ -3167,7 +3167,7 @@ msgstr "Menções <span class=\"count\">%s</span>"
 
 #: bp-messages/bp-messages-loader.php:200
 msgid "Inbox <span class=\"count\">%s</span>"
-msgstr "Caixa de Entrada <span class=\"count\">%s</span>"
+msgstr "Caixa de entrada <span class=\"count\">%s</span>"
 
 #: bp-messages/bp-messages-loader.php:199
 msgid "Messages <span class=\"count\">%s</span>"
@@ -3175,11 +3175,11 @@ msgstr "Mensagens <span class=\"count\">%s</span>"
 
 #: bp-groups/bp-groups-loader.php:546
 msgid "Pending Invites <span class=\"count\">%s</span>"
-msgstr "Convites Pendentes <span class=\"count\">%s</span>"
+msgstr "Convites pendentes <span class=\"count\">%s</span>"
 
 #: bp-friends/bp-friends-loader.php:186
 msgid "Pending Requests <span class=\"count\">%s</span>"
-msgstr "Pedidos Pendentes <span class=\"count\">%s</span>"
+msgstr "Pedidos pendentes <span class=\"count\">%s</span>"
 
 #: bp-friends/bp-friends-loader.php:185
 msgid "Friends <span class=\"count\">%s</span>"
@@ -3190,14 +3190,14 @@ msgstr "Amigos <span class=\"count\">%s</span>"
 #: bp-themes/bp-default/groups/create.php:42
 #: bp-themes/bp-default/groups/single/admin.php:19
 msgid "Group Description (required)"
-msgstr "Descrição do Grupo (obrigatório)"
+msgstr "Descrição do grupo (obrigatório)"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:29
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:16
 #: bp-themes/bp-default/groups/create.php:39
 #: bp-themes/bp-default/groups/single/admin.php:16
 msgid "Group Name (required)"
-msgstr "Nome do Grupo (obrigatório)"
+msgstr "Nome do grupo (obrigatório)"
 
 #: bp-activity/bp-activity-functions.php:880
 msgid "%s posted an update"
@@ -3206,41 +3206,41 @@ msgstr "%s publicou uma actualização"
 #: bp-templates/bp-legacy/buddypress/forums/index.php:22
 #: bp-themes/bp-default/forums/index.php:40
 msgid "All Topics <span>%s</span>"
-msgstr "Todos os Tópicos <span>%s</span>"
+msgstr "Todos os tópicos <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:19
 #: bp-themes/bp-default/groups/index.php:35
 msgid "All Groups <span>%s</span>"
-msgstr "Todos os Grupos <span>%s</span>"
+msgstr "Todos os grupos <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:19
 #: bp-templates/bp-legacy/buddypress/members/index.php:19
 #: bp-themes/bp-default/activity/index.php:39
 #: bp-themes/bp-default/members/index.php:35
 msgid "All Members <span>%s</span>"
-msgstr "Todos os Membros <span>%s</span>"
+msgstr "Todos os membros <span>%s</span>"
 
 #: bp-messages/bp-messages-template.php:748
 msgid "Private Message"
-msgstr "Mensagem Privada"
+msgstr "Mensagem privada"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:26
 #: bp-themes/bp-default/forums/index.php:44
 msgid "My Topics <span>%s</span>"
-msgstr "Os Meus Tópicos <span>%s</span>"
+msgstr "Os meus tópicos <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:20
 #: bp-themes/bp-default/blogs/index.php:37
 msgid "My Sites <span>%s</span>"
-msgstr "Os Meus Sítios <span>%s</span>"
+msgstr "Os meus sites <span>%s</span>"
 
 #: bp-notifications/bp-notifications-adminbar.php:54
 msgid "No new notifications"
-msgstr "Não há avisos novos"
+msgstr "Não existem notificações novas"
 
 #: bp-groups/bp-groups-forums.php:157
 msgid "%1$s started the forum topic %2$s in the group %3$s"
-msgstr "%1$s iniciou o tópico de fórum %2$s no grupo %3$s"
+msgstr "%1$s iniciou o tópico %2$s no grupo %3$s"
 
 #: bp-groups/bp-groups-notifications.php:493
 msgid "You were promoted to a mod in the group \"%s\""
@@ -3254,8 +3254,7 @@ msgstr "agora"
 msgid ""
 "Associate WordPress Pages with the following BuddyPress Registration pages."
 msgstr ""
-"Páginas Associadas do WordPress com as seguintes páginas de Registo "
-"BuddyPress."
+"Associe uma página WordPress às seguintes páginas do registo BuddyPress."
 
 #: bp-groups/bp-groups-loader.php:479
 msgid "Members <span>%s</span>"
@@ -3263,7 +3262,7 @@ msgstr "Membros <span>%s</span>"
 
 #: bp-activity/bp-activity-template.php:1577
 msgid "View Discussion"
-msgstr "Ver a Discussão"
+msgstr "Ver a discussão"
 
 #: bp-activity/bp-activity-functions.php:894
 #: tests/testcases/activity/class.BP_Activity_Activity.php:216
@@ -3276,19 +3275,19 @@ msgstr "Mensagens <span>%s</span>"
 
 #: bp-groups/bp-groups-forums.php:107 bp-groups/bp-groups-forums.php:256
 msgid "%1$s replied to the forum topic %2$s in the group %3$s"
-msgstr "%1$s respondeu ao tópico do fórum %2$s no grupo %3$s"
+msgstr "%1$s respondeu ao tópico %2$s no grupo %3$s"
 
 #: bp-forums/deprecated/1.6.php:171
 msgid ""
 "<p>All done! Configuration settings have been saved to the file <code>bb-"
 "config.php</code> in the root of your WordPress install.</p>"
 msgstr ""
-"<p>Feito! As definições de configuração foram guardas no ficheiro <code>bb-"
-"config.php</code> na pasta raíz da sua instalação WordPress.</p>"
+"<p>Feito! As opções de configuração foram guardas no ficheiro <code>bb-"
+"config.php</code> na pasta raiz da sua instalação WordPress.</p>"
 
 #: bp-xprofile/bp-xprofile-template.php:898
 msgid "Profile updated %s"
-msgstr "Actualização do perfil %s"
+msgstr "Perfil actualizado %s"
 
 #: bp-messages/bp-messages-template.php:1040
 #: bp-templates/bp-legacy/buddypress-functions.php:1257
@@ -3303,14 +3302,14 @@ msgid ""
 "the root directory of your WordPress installation before you can start using "
 "the forum functionality.</p>"
 msgstr ""
-"<p>Um ficheiro de configuração não pôde ser criado. Sem problema, mas deverá "
-"guardar o texto mostrado abaixo num ficheiro chamado <code>bb-config.php</"
-"code> no directório raíz da sua instalação WordPress antes de poder começar "
-"a usar a funcionalidade de fórum.</p>"
+"<p>Um ficheiro de configuração não pôde ser criado. Não é um problema, mas "
+"deverá guardar o texto mostrado abaixo num ficheiro chamado <code>bb-config."
+"php</code> no directório raiz da sua instalação WordPress antes de poder "
+"começar a usar o fórum.</p>"
 
 #: bp-activity/bp-activity-template.php:2858
 msgid "Public Message"
-msgstr "Mensagem Pública"
+msgstr "Mensagem pública"
 
 #: bp-templates/bp-legacy/buddypress/activity/entry.php:58
 #: bp-themes/bp-default/activity/entry.php:60
@@ -3339,12 +3338,12 @@ msgstr "criado %s"
 #: bp-themes/bp-default/activity/index.php:49
 #: bp-themes/bp-default/members/index.php:39
 msgid "My Friends <span>%s</span>"
-msgstr "Os Meus Amigos <span>%s</span>"
+msgstr "Os meus amigos <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:16
 #: bp-themes/bp-default/blogs/index.php:33
 msgid "All Sites <span>%s</span>"
-msgstr "Todos os Sítios <span>%s</span>"
+msgstr "Todos os sites <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:41
 #: bp-templates/bp-legacy/buddypress/groups/index.php:22
@@ -3385,7 +3384,7 @@ msgstr "Nova Página"
 
 #: bp-core/admin/bp-core-slugs.php:79
 msgid "Directories"
-msgstr "Pastas"
+msgstr "Directorias"
 
 #: bp-core/admin/bp-core-components.php:348
 msgid "Everything in a BuddyPress community revolves around its members."
@@ -3393,7 +3392,7 @@ msgstr "Tudo numa comunidade BuddyPress gira em torno dos seus membros. "
 
 #: bp-core/admin/bp-core-components.php:347
 msgid "Community Members"
-msgstr "Membros da Comunidade "
+msgstr "Membros"
 
 #: bp-core/admin/bp-core-components.php:344
 msgid "It&#8216;s what makes <del>time travel</del> BuddyPress possible!"
@@ -3601,7 +3600,7 @@ msgstr "Pesquisar sítios..."
 
 #: bp-blogs/bp-blogs-loader.php:25 bp-core/admin/bp-core-components.php:395
 msgid "Site Tracking"
-msgstr "Rastreio de Sítio"
+msgstr "Actividade do site"
 
 #: bp-blogs/bp-blogs-template.php:1100
 msgid "Congratulations! You have successfully registered a new site."
@@ -3826,7 +3825,7 @@ msgstr "Home"
 
 #: bp-messages/bp-messages-loader.php:243
 msgid "All Member Notices"
-msgstr "Avisos de Todos os Membros"
+msgstr "Todas as notificações de membros"
 
 #: bp-messages/bp-messages-loader.php:149
 #: bp-messages/bp-messages-loader.php:226
@@ -3888,15 +3887,15 @@ msgstr "(Primário)"
 #: bp-core/admin/bp-core-components.php:63
 #: bp-core/admin/bp-core-components.php:367
 msgid "Account Settings"
-msgstr "Configurações de Conta"
+msgstr "Configurações de conta"
 
 #: bp-core/admin/bp-core-components.php:372
 msgid ""
 "Let your users make connections so they can track the activity of others and "
 "focus on the people they care about the most."
 msgstr ""
-"Deixe os seus utilizadores fazer ligações para que possam rastrear a "
-"actividade dos outros e focar-se nas pessoas que mais gostam."
+"Deixe os seus utilizadores fazer amizades, para que possam seguir a "
+"actividade de outros, e focarem-se nas pessoas de que mais gostam."
 
 #: bp-core/admin/bp-core-components.php:64
 #: bp-core/admin/bp-core-components.php:368
@@ -3905,15 +3904,15 @@ msgid ""
 "from within their profiles."
 msgstr ""
 "Permita que os seus utilizadores modifiquem directamente as configurações da "
-"sua conta e dos avisos a partir dos seus perfis."
+"sua própria conta e notificações, a partir dos seus perfis."
 
 #: bp-xprofile/bp-xprofile-admin.php:27 bp-xprofile/bp-xprofile-admin.php:71
 msgid "Profile Fields"
-msgstr "Campos do Perfil"
+msgstr "Campos do perfil"
 
 #: bp-themes/bp-default/forums/index.php:23
 msgid "Forums Directory"
-msgstr "Pasta de Fóruns"
+msgstr "Directoria de fórums"
 
 #: bp-members/bp-members-buddybar.php:107
 msgid "Delete %s's Account"
@@ -3947,7 +3946,7 @@ msgstr "Pesquisar Mensagens..."
 
 #: bp-messages/bp-messages-loader.php:33
 msgid "Private Messages"
-msgstr "Mensagens Privadas"
+msgstr "Mensagens privadas"
 
 #: bp-core/admin/bp-core-components.php:343 bp-core/bp-core-loader.php:27
 msgid "BuddyPress Core"
@@ -3981,7 +3980,7 @@ msgstr "Convites"
 
 #: bp-core/admin/bp-core-components.php:387 bp-groups/bp-groups-loader.php:83
 msgid "User Groups"
-msgstr "Grupos de Utilizador"
+msgstr "Grupos de utilizadores"
 
 #: bp-forums/bp-forums-loader.php:223
 msgid "Favorite Topics"
@@ -4651,7 +4650,7 @@ msgstr "Registar"
 #: bp-core/admin/bp-core-components.php:371
 #: bp-friends/bp-friends-loader.php:24
 msgid "Friend Connections"
-msgstr "Ligações de Amigos"
+msgstr "Amizades"
 
 #: bp-forums/bp-forums-loader.php:28
 msgid "Discussion Forums"
@@ -6986,7 +6985,7 @@ msgstr "Desligar"
 
 #: bp-core/bp-core-adminbar.php:36 bp-core/bp-core-buddybar.php:571
 msgid "My Account"
-msgstr "A Minha Conta"
+msgstr "A minha conta"
 
 #: bp-core/bp-core-buddybar.php:556
 msgid "Sign Up"
@@ -7001,11 +7000,11 @@ msgstr "Ligar"
 #: bp-core/admin/bp-core-components.php:363
 #: bp-xprofile/bp-xprofile-loader.php:41
 msgid "Extended Profiles"
-msgstr "Perfis Alargados"
+msgstr "Perfis alargados"
 
 #: bp-core/bp-core-filters.php:360 bp-members/bp-members-functions.php:1697
 msgid "Activate Your Account"
-msgstr "Activar a Sua Conta"
+msgstr "Active a sua conta"
 
 #: bp-core/bp-core-admin.php:246 bp-core/bp-core-admin.php:247
 msgid "BuddyPress Settings"
@@ -7013,23 +7012,23 @@ msgstr "Configurações do Buddypress"
 
 #: bp-blogs/bp-blogs-buddybar.php:56 bp-core/bp-core-buddybar.php:626
 msgid "Manage Posts"
-msgstr "Gerir Artigos"
+msgstr "Gerir artigos"
 
 #: bp-core/admin/bp-core-components.php:32
 #: bp-core/admin/bp-core-settings.php:281 bp-core/admin/bp-core-slugs.php:32
 #: bp-templates/bp-legacy/buddypress/members/single/settings/profile.php:38
 #: bp-themes/bp-default/members/single/settings/profile.php:88
 msgid "Save Settings"
-msgstr "Guardar Configurações"
+msgstr "Guardar alterações"
 
 #: bp-activity/bp-activity-loader.php:30
 #: bp-core/admin/bp-core-components.php:379
 msgid "Activity Streams"
-msgstr "Fluxos de Actividade"
+msgstr "Fluxos de actividade"
 
 #: bp-core/admin/bp-core-components.php:375
 msgid "Private Messaging"
-msgstr "Mensagens Privadas"
+msgstr "Mensagens privadas"
 
 #: bp-activity/bp-activity-classes.php:1485
 msgid "In reply to"
@@ -7344,7 +7343,7 @@ msgstr "Nenhuma notificação nova."
 #: bp-notifications/bp-notifications-loader.php:188
 #: bp-notifications/bp-notifications-loader.php:231
 msgid "Notifications"
-msgstr "Avisos"
+msgstr "Notificações"
 
 #: bp-blogs/bp-blogs-buddybar.php:57 bp-core/bp-core-buddybar.php:627
 msgid "Manage Comments"
