@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress-pt_PT 1.9.2\n"
 "Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2014-03-20 08:33:45+00:00\n"
-"PO-Revision-Date: 2014-03-30 13:10-0000\n"
+"PO-Revision-Date: 2014-03-30 13:20-0000\n"
 "Last-Translator: WordPress Portugal <http;//wp-portugal.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "Language: pt_PT\n"
@@ -1367,7 +1367,7 @@ msgstr "Título:"
 
 #: bp-blogs/bp-blogs-widgets.php:134
 msgid "Link widget title to Blogs directory"
-msgstr "Associar o título do <em>widget<em/> ao directório do Blogue "
+msgstr "Associar o título do widget ao directório de sites"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:59
 #: bp-themes/bp-default/activity/index.php:79
@@ -2046,7 +2046,7 @@ msgstr "Então a fazer batota?"
 
 #: bp-core/admin/bp-core-settings.php:62
 msgid "Switch to WordPress Toolbar"
-msgstr "Mudar para a Barra de Ferramentas WordPress"
+msgstr "Mudar para a barra de ferramentas do WordPress"
 
 #: bp-groups/bp-groups-forums.php:209
 msgid "%1$s edited the forum topic %2$s in the group %3$s"
@@ -2054,17 +2054,17 @@ msgstr "%1$s editaram o tópico %2$s do fórum no grupo %3$s"
 
 #: bp-core/admin/bp-core-settings.php:31
 msgid "Show the Toolbar for logged out users"
-msgstr "Mostrar a Barra de Ferramentas para os utilizadores ligados"
+msgstr "Mostrar a barra de ferramentas aos utilizadores com sessão iniciada"
 
 #: bp-core/admin/bp-core-settings.php:101
 msgid "Allow activity stream commenting on blog and forum posts"
 msgstr ""
-"Permitir comentários ao fluxo de actividade das publicações no blogue e no "
+"Permitir comentários no fluxo de actividade, em publicações no site e no "
 "fórum"
 
 #: bp-core/bp-core-admin.php:374
 msgid "Blog &amp; Forum Comments"
-msgstr "Blogue &amp; Comentários do Fórum"
+msgstr "Comentários a artigos e tópicos"
 
 #: bp-messages/bp-messages-classes.php:466
 msgid "%s Recipients"
@@ -2131,7 +2131,7 @@ msgstr "Configuração bbPress"
 #: bp-core/bp-core-admin.php:330
 #: bp-themes/bp-default/members/single/settings/profile.php:49
 msgid "Profile Settings"
-msgstr "Configurações do Perfil"
+msgstr "Configurações do perfil"
 
 #: bp-core/admin/bp-core-settings.php:240
 msgid "Attempt to save a new config file."
@@ -2155,16 +2155,16 @@ msgstr "Caminho absoluto para o seu ficheiro de configuração bbPress"
 
 #: bp-core/admin/bp-core-settings.php:183
 msgid "Allow registered members to upload avatars"
-msgstr "Permitir que membros registados enviem avatares"
+msgstr "Permitir que os membros registados carreguem acatares próprios"
 
 #: bp-core/admin/bp-core-settings.php:208
 msgid "Enable group creation for all users"
-msgstr "Ligar criação de grupos para todos os utilizadores."
+msgstr "Permitir que qualquer utilizador crie grupos."
 
 #: bp-core/admin/bp-core-settings.php:209
 msgid "Administrators can always create groups, regardless of this setting."
 msgstr ""
-"Os administradores podem sempre criar grupos, apesar desta configuração."
+"Os administradores podem sempre criar grupos, independentemente desta opção."
 
 #: bp-core/admin/bp-core-components.php:396
 msgid "Record activity for new posts and comments from your site."
@@ -2189,7 +2189,7 @@ msgstr "Este grupo devia ter um fórum?"
 
 #: bp-core/bp-core-admin.php:312 bp-core/bp-core-admin.php:317
 msgid "Toolbar"
-msgstr "Barra de Ferramentas"
+msgstr "Barra de ferramentas"
 
 #: bp-core/admin/bp-core-components.php:189
 #: bp-members/admin/bp-members-classes.php:211
@@ -2396,7 +2396,7 @@ msgstr "Ocorreram erros ao tentar actualizar thes item de actividade:"
 
 #: bp-core/bp-core-admin.php:371
 msgid "Activity Settings"
-msgstr "Configurações da Actividade"
+msgstr "Configurações da actividade"
 
 #: bp-activity/bp-activity-admin.php:856
 msgid "#%s"
@@ -2404,23 +2404,23 @@ msgstr "#%s"
 
 #: bp-core/admin/bp-core-settings.php:167
 msgid "Enable BuddyPress to WordPress profile syncing"
-msgstr "Ligar a sincronização de perfis entre o BuddyPress e o WordPress"
+msgstr "Ligar a sincronização de perfis BuddyPress e WordPress"
 
 #: bp-core/bp-core-admin.php:344
 msgid "Groups Settings"
-msgstr "Configurações do Grupo"
+msgstr "Configurações de grupos"
 
 #: bp-core/bp-core-admin.php:322
 msgid "Account Deletion"
-msgstr "Eliminação da Conta"
+msgstr "Eliminação da conta"
 
 #: bp-core/bp-core-admin.php:335
 msgid "Profile Syncing"
-msgstr "Sincronização de Perfis"
+msgstr "Sincronização de perfis"
 
 #: bp-core/bp-core-admin.php:309
 msgid "Main Settings"
-msgstr "Configurações Principais"
+msgstr "Configurações principais"
 
 #: bp-forums/deprecated/1.6.php:97 bp-forums/deprecated/1.6.php:240
 msgid "Revisions"
@@ -2432,11 +2432,11 @@ msgstr "Deixar Akismet sondar <em>spam</em> em fluxos de actividade"
 
 #: bp-core/bp-core-admin.php:392
 msgid "Avatar Uploads"
-msgstr "Envios de Avatar"
+msgstr "Carregamento de avatares"
 
 #: bp-core/bp-core-admin.php:350
 msgid "Group Creation"
-msgstr "Criação do Grupo"
+msgstr "Criação de grupos"
 
 #: bp-members/bp-members-adminbar.php:91
 msgid "Edit Member"
