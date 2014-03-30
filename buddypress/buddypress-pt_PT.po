@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress-pt_PT 1.9.2\n"
 "Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2014-03-20 08:33:45+00:00\n"
-"PO-Revision-Date: 2014-03-30 13:20-0000\n"
+"PO-Revision-Date: 2014-03-30 13:46-0000\n"
 "Last-Translator: WordPress Portugal <http;//wp-portugal.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "Language: pt_PT\n"
@@ -18,9 +18,8 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #: bp-members/admin/bp-members-classes.php:102
 #: bp-members/admin/bp-members-classes.php:417
@@ -484,8 +483,8 @@ msgid ""
 "%s has been marked as a spammer. All BuddyPress data associated with the "
 "user has been removed"
 msgstr ""
-"%s foi marcado como <em>spammer</em>. Todos os dados BuddyPress associados "
-"ao utilizador foram apagados"
+"%s foi marcado como spammer. Todos os dados BuddyPress associados ao "
+"utilizador foram apagados"
 
 #: bp-blogs/bp-blogs-template.php:1288
 msgid "%s site"
@@ -548,11 +547,11 @@ msgstr "Perfil actualizado."
 
 #: bp-members/bp-members-admin.php:483
 msgid "User could not be removed as spammer."
-msgstr "O utilizador não pôde ser desmarcado como <em>spammer</em>."
+msgstr "O utilizador não pôde ser desmarcado como spammer."
 
 #: bp-members/bp-members-admin.php:489
 msgid "User could not be marked as spammer."
-msgstr "O utilizador não pôde ser marcado como <em>spammer</em>."
+msgstr "O utilizador não pôde ser marcado como spammer."
 
 #: bp-members/bp-members-admin.php:495
 msgid "An error occured while trying to update the profile."
@@ -1213,7 +1212,7 @@ msgstr "Divisão de tópico"
 
 #: bp-forums/deprecated/1.6.php:98 bp-forums/deprecated/1.6.php:241
 msgid "Spam management"
-msgstr "Gestão de <em>spam</em>"
+msgstr "Gestão de spam"
 
 #: bp-forums/deprecated/1.6.php:99 bp-forums/deprecated/1.6.php:242
 msgid "Subscriptions"
@@ -2297,7 +2296,7 @@ msgstr "Capacidades"
 #: bp-templates/bp-legacy/buddypress/members/single/settings/capabilities.php:9
 #: bp-themes/bp-default/members/single/settings/capabilities.php:57
 msgid "This user is a spammer."
-msgstr "O utilizador é um <em>spammer</em>"
+msgstr "O utilizador é um spammer"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/delete-account.php:7
 #: bp-themes/bp-default/members/single/settings/delete-account.php:56
@@ -2428,7 +2427,7 @@ msgstr "Revisões"
 
 #: bp-core/admin/bp-core-settings.php:87
 msgid "Allow Akismet to scan for activity stream spam"
-msgstr "Deixar Akismet sondar <em>spam</em> em fluxos de actividade"
+msgstr "Deixar Akismet sondar spam em fluxos de actividade"
 
 #: bp-core/bp-core-admin.php:392
 msgid "Avatar Uploads"
@@ -2579,7 +2578,7 @@ msgstr "Não é um administrador deste grupo."
 
 #: bp-activity/bp-activity-admin.php:267
 msgid "Moderating Activity"
-msgstr "A Moderar Actividade"
+msgstr "Moderação de actividades"
 
 #: bp-activity/bp-activity-admin.php:884
 msgid "Activity related to ID #%s"
@@ -2686,11 +2685,11 @@ msgid ""
 "by a user in the form of status update. To help manage the different "
 "activity types, use the filter dropdown box to switch between them."
 msgstr ""
-"Há muitos tipos diferentes de actividades. Alguns são gerados "
-"automaticamente pelo BuddyPress e outros <em>plugins</em> e outros são "
-"introduzidos directamente por um utilizador na forma de actualizações de "
-"estado. Para o ajudar a gerir os diferentes tipos de actividades, use a "
-"caixa de lista de filtros para alternar entre eles.  "
+"Há muitos tipos diferentes de actividades; alguns são gerados "
+"automaticamente pelo BuddyPress e outros plugins, enquanto que outros são "
+"criados directamente por um utilizador, sob a forma de actualizações de "
+"estado. Para o ajudar a gerir os diferentes tipos de actividades, use os "
+"filtros para alternar entre eles.  "
 
 #: bp-activity/bp-activity-admin.php:269
 msgid ""
@@ -2700,11 +2699,11 @@ msgid ""
 "activity on your live site. Hovering over any activity gives you options to "
 "reply, edit, spam mark, or delete that activity."
 msgstr ""
-"Na coluna <strong>Actividade</strong>, acima de cada actividade diz &#8220;"
-"Enviado em,&#8221; seguido da data e hora do item da actividade gerado no "
-"seu sítio. Clicando na hiperligação data/hora leva-lo-á a essa actividade no "
-"sítio em linha. Passando o cursor em qualquer actividade dá-lhe as opções "
-"para responder, editar, marcar como <em>spam</em> ou eliminar essa "
+"Na coluna <strong>Actividade</strong>, acima de cada actividade é indicado "
+"&#8220;Publicado a,&#8221; seguido da data e hora do item da actividade "
+"gerado no seu site. Ao clicar no link data/hora poderá visualizar essa "
+"actividade no seu site. Pairar com rato sobre qualquer actividade mostra-lhe "
+"as opções para responder, editar, marcar como spam ou eliminar essa "
 "actividade."
 
 #: bp-activity/bp-activity-admin.php:270
@@ -2716,11 +2715,11 @@ msgid ""
 "are usually comments. Clicking the bubble will filter the activity screen to "
 "show only related activity items."
 msgstr ""
-"Na coluna <strong>Em Resposta A</strong>, se a actividade foi em resposta a "
-"outra actividade, é mostrado a foto e o nome do autor dessa actividade e uma "
-"hiperligação a essa actividade no seu sítio em linha. Se existir uma pequena "
-"bolha, o número dentro dela mostra quantas outras actividades estão "
-"relacionadas com esta; normalmente são comentários. Clicando na bolha "
+"Na coluna <strong>Em resposta a</strong>, e se a actividade ocorreu em "
+"resposta a outra actividade, é-lhe mostrado o avatar e o nome do autor dessa "
+"actividade, assim como um link para essa actividade no seu site. Se existir "
+"uma pequena bolha, o número dentro dela mostra quantas outras actividades "
+"estão relacionadas com esta; normalmente são comentários. Clicando na bolha "
 "filtrará o ecrã da actividade para mostrar só items de actividade "
 "relacionados."
 
@@ -2796,7 +2795,7 @@ msgstr "<a href=\"%1$s\">Ver Actividade</a>"
 
 #: bp-activity/bp-activity-akismet.php:97
 msgid "Un-spammed by %s"
-msgstr "<em>spam</em> anulado por %s"
+msgstr "spam anulado por %s"
 
 #: bp-activity/bp-activity-akismet.php:106
 msgid "History"
@@ -2804,11 +2803,11 @@ msgstr "Histórico"
 
 #: bp-activity/bp-activity-akismet.php:95
 msgid "Flagged as spam by %s"
-msgstr "Marcado como <em>spam</em> por %s"
+msgstr "Marcado como spam por %s"
 
 #: bp-activity/bp-activity-akismet.php:86
 msgid "Flagged as spam by Akismet"
-msgstr "Marcado como <em>spam</em> pelo Akismet"
+msgstr "Marcado como spam pelo Akismet"
 
 #: bp-activity/bp-activity-akismet.php:89
 msgid "Cleared by Akismet"
@@ -2816,15 +2815,15 @@ msgstr "Verificado pelo Akismet"
 
 #: bp-activity/bp-activity-admin.php:1220
 msgid "In Response To"
-msgstr "Em Resposta A"
+msgstr "Em resposta a"
 
 #: bp-activity/bp-activity-admin.php:1263
 msgid "Show all activity types"
-msgstr "Mostrar todos os tipos de actividade."
+msgstr "Mostrar tudo"
 
 #: bp-activity/bp-activity-admin.php:1363
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
-msgstr "Enviado em <a href=\"%1$s\">%2$s a %3$s</a>"
+msgstr "Publicado a <a href=\"%1$s\">%2$s, às %3$s</a>"
 
 #: bp-activity/bp-activity-admin.php:1109
 msgid "No activities found."
@@ -2837,10 +2836,10 @@ msgid ""
 "other management screens, and you can act on activities using the on-hover "
 "action links or the Bulk Actions."
 msgstr ""
-"Pode gerir as actividades conduzidas no seu sítio da mesma forma que pode "
-"gerir os comentário e outros conteúdos. Este ecrã é personalizável do mesmo "
-"modo que os outros ecrãs de gestão e pode agir sobre as actividades usando "
-"as hiperligações de acção por cursor ou as Acções em Pacote.  "
+"Pode gerir a actividade no seu site da mesma maneira que gere comentário e "
+"outros conteúdos. Esta página é personalizáveis do mesmo modo que as outras "
+"páginas de gestão e pode agir sobre as actividades usando os links de acção "
+"ao pairar por cima de uma actividade, ou as acções por lotes."
 
 #: bp-activity/bp-activity-admin.php:890 bp-groups/bp-groups-admin.php:645
 #: bp-members/bp-members-admin.php:1252
@@ -2877,11 +2876,11 @@ msgstr "Marcar como <em>Spam</em>"
 
 #: bp-activity/bp-activity-akismet.php:390
 msgid "%s reported this activity as not spam"
-msgstr "%s não denunciou esta actividade como <em>spam</em>"
+msgstr "%s não denunciou esta actividade como spam"
 
 #: bp-activity/bp-activity-akismet.php:373
 msgid "%s reported this activity as spam"
-msgstr "%s denunciou esta actividade como <em>spam</em>"
+msgstr "%s denunciou esta actividade como spam"
 
 #: bp-activity/bp-activity-akismet.php:424
 msgid ""
@@ -2893,7 +2892,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-akismet.php:414
 msgid "Akismet caught this item as spam"
-msgstr "Akismet identificou este item como <em>spam</em>."
+msgstr "Akismet identificou este item como spam."
 
 #: bp-activity/bp-activity-akismet.php:419
 msgid "Akismet cleared this item"
@@ -2901,8 +2900,7 @@ msgstr "O Akismet validou este item"
 
 #: bp-activity/bp-activity-actions.php:214
 msgid "The activity item has been marked as spam and is no longer visible."
-msgstr ""
-"Este item da actividade foi marcado como <em>spam</em> e já não está visível."
+msgstr "Este item da actividade foi marcado como spam e já não está visível."
 
 #: bp-groups/bp-groups-actions.php:305 bp-groups/bp-groups-screens.php:753
 msgid "This group must have at least one admin"
@@ -3400,7 +3398,7 @@ msgstr "É o que torna <del>viajar no tempo</del> o BuddyPress possível!"
 
 #: bp-blogs/bp-blogs-loader.php:129
 msgid "Sites <span>%d</span>"
-msgstr "Sítios <span>%d</span>"
+msgstr "Sites <span>%d</span>"
 
 #: bp-blogs/bp-blogs-template.php:648 bp-core/bp-core-classes.php:816
 #: bp-groups/bp-groups-template.php:3277 bp-groups/bp-groups-widgets.php:85
@@ -3506,12 +3504,12 @@ msgstr "Não tem acesso a este grupo."
 #: bp-templates/bp-legacy/buddypress/members/register.php:220
 #: bp-themes/bp-default/registration/register.php:225
 msgid "Site Title"
-msgstr "Título do Sítio"
+msgstr "Título do Site"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:207
 #: bp-themes/bp-default/registration/register.php:212
 msgid "Yes, I'd like to create a new site"
-msgstr "Sim, quero criar um novo sítio"
+msgstr "Sim, quero criar um novo site"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:84
 #: bp-templates/bp-legacy/buddypress/members/single/activity.php:28
@@ -3523,21 +3521,21 @@ msgstr "Comentários"
 #: bp-templates/bp-legacy/buddypress/blogs/create.php:14
 #: bp-themes/bp-default/blogs/create.php:32
 msgid "Site registration is currently disabled"
-msgstr "O registo no sítio está actualmente desactivado. "
+msgstr "O registo no site está actualmente desactivado. "
 
 #: bp-templates/bp-legacy/buddypress/blogs/blogs-loop.php:90
 #: bp-themes/bp-default/blogs/blogs-loop.php:90
 msgid "Sorry, there were no sites found."
-msgstr "Lamentamos, não foram encontrados sítios "
+msgstr "Lamentamos, não foram encontrados sites "
 
 #: bp-blogs/bp-blogs-activity.php:34
 msgid "New site created"
-msgstr "Um novo sítio foi criado"
+msgstr "Um novo site foi criado"
 
 #: bp-blogs/bp-blogs-buddybar.php:42 bp-blogs/bp-blogs-loader.php:149
 #: bp-blogs/bp-blogs-loader.php:199 bp-blogs/bp-blogs-loader.php:227
 msgid "My Sites"
-msgstr "Os Meus Sítios"
+msgstr "Os Meus Sites"
 
 #: bp-blogs/bp-blogs-activity.php:42
 msgid "New post published"
@@ -3548,7 +3546,7 @@ msgid ""
 "<a href=\"%1$s\">%2$s</a> is your new site.  <a href=\"%3$s\">Login</a> as "
 "\"%4$s\" using your existing password."
 msgstr ""
-"<a href=\"%1$s\">%2$s</a> é o seu novo sítio.  <a href=\"%3$s\">Ligue-se</a> "
+"<a href=\"%1$s\">%2$s</a> é o seu novo site.  <a href=\"%3$s\">Ligue-se</a> "
 "como \"%4$s\" usando a sua senha actual."
 
 #: bp-blogs/bp-blogs-template.php:993
@@ -3558,12 +3556,12 @@ msgid ""
 "I would like my site to appear in search engines, and in public listings "
 "around this network."
 msgstr ""
-"Quero que o meu sítio apareça em motores de busca e em listagens públicas "
+"Quero que o meu site apareça em motores de busca e em listagens públicas "
 "mesta rede."
 
 #: bp-blogs/bp-blogs-template.php:981
 msgid "Site Title:"
-msgstr "Título do Sítio:"
+msgstr "Título do Site:"
 
 #: bp-core/bp-core-catchuri.php:471 bp-core/bp-core-catchuri.php:531
 msgid "You must log in to access the page you requested."
@@ -3571,11 +3569,11 @@ msgstr "Deve ligar-se para aceder à página que pediu."
 
 #: bp-blogs/bp-blogs-template.php:1131
 msgid "%s's Sites"
-msgstr "Sítios de %s"
+msgstr "Sites de %s"
 
 #: bp-blogs/bp-blogs-activity.php:69
 msgid "%s created the site %s"
-msgstr "%s criou o sítio %s "
+msgstr "%s criou o site %s "
 
 #: bp-blogs/bp-blogs-loader.php:208 bp-blogs/bp-blogs-screens.php:204
 #: bp-blogs/bp-blogs-template.php:1114 bp-blogs/bp-blogs-template.php:1182
@@ -3583,20 +3581,20 @@ msgstr "%s criou o sítio %s "
 #: bp-themes/bp-default/blogs/create.php:21
 #: bp-themes/bp-default/blogs/index.php:21
 msgid "Create a Site"
-msgstr "Criar um Sítio"
+msgstr "Criar um Site"
 
 #: bp-blogs/bp-blogs-buddybar.php:70
 msgid "Create a Site!"
-msgstr "Criar um Sítio!"
+msgstr "Criar um Site!"
 
 #: bp-blogs/bp-blogs-loader.php:191 bp-blogs/bp-blogs-screens.php:144
 #: bp-blogs/bp-blogs-screens.php:204 bp-blogs/bp-blogs-screens.php:206
 msgid "Sites"
-msgstr "Sítios"
+msgstr "Sites"
 
 #: bp-blogs/bp-blogs-loader.php:68
 msgid "Search sites..."
-msgstr "Pesquisar sítios..."
+msgstr "Pesquisar sites..."
 
 #: bp-blogs/bp-blogs-loader.php:25 bp-core/admin/bp-core-components.php:395
 msgid "Site Tracking"
@@ -3604,7 +3602,7 @@ msgstr "Actividade do site"
 
 #: bp-blogs/bp-blogs-template.php:1100
 msgid "Congratulations! You have successfully registered a new site."
-msgstr "Parabéns! Registou um novo sítio com êxito."
+msgstr "Parabéns! Registou um novo site com êxito."
 
 #: bp-blogs/bp-blogs-widgets.php:91
 msgid "Sorry, there were no posts found. Why not write one?"
@@ -3612,24 +3610,24 @@ msgstr "Lamentamos, não foram encontrados artigos. Porque não escreve um?"
 
 #: bp-core/bp-core-buddybar.php:657
 msgid "Random Site"
-msgstr "Sítio Aleatório"
+msgstr "Site Aleatório"
 
 #: bp-blogs/bp-blogs-template.php:953
 msgid "Site Domain:"
-msgstr "Domínio do Sítio:"
+msgstr "Domínio do Site:"
 
 #: bp-themes/bp-default/search.php:10
 msgid "Site"
-msgstr "Sítio"
+msgstr "Site"
 
 #: bp-themes/bp-default/blogs/create.php:21
 #: bp-themes/bp-default/blogs/index.php:21
 msgid "Site Directory"
-msgstr "Pasta do Sítio"
+msgstr "Pasta do Site"
 
 #: bp-blogs/bp-blogs-template.php:951
 msgid "Site Name:"
-msgstr "Nome do Sítio:"
+msgstr "Nome do Site:"
 
 #: bp-blogs/bp-blogs-activity.php:49
 msgid "New post comment posted"
@@ -3649,13 +3647,13 @@ msgid ""
 "strong>. There is no limit to the number of sites that you can have, so "
 "create to your heart's content, but blog responsibly!"
 msgstr ""
-"Ao preencher o formulário abaixo, pode <strong>adicionar um sítio à sua "
-"conta</strong>. Não há limite ao número de sítios que pode ter, logo dê "
+"Ao preencher o formulário abaixo, pode <strong>adicionar um site à sua "
+"conta</strong>. Não há limite ao número de sites que pode ter, logo dê "
 "largas à imaginação, mas blogue responsavelmente! "
 
 #: bp-blogs/bp-blogs-template.php:929
 msgid "Create Site"
-msgstr "Criar Sítio"
+msgstr "Criar Site"
 
 #: bp-core/bp-core-classes.php:830 bp-groups/bp-groups-template.php:3281
 msgid "%d group"
@@ -3767,7 +3765,7 @@ msgstr "Páginas:"
 
 #: bp-blogs/bp-blogs-activity.php:195 bp-blogs/bp-blogs-functions.php:446
 msgid "%1$s commented on the post, %2$s, on the site %3$s"
-msgstr "%1$s comentou no artigo, %2$s, no sítio %3$s"
+msgstr "%1$s comentou no artigo, %2$s, no site %3$s"
 
 #: bp-blogs/bp-blogs-activity.php:130 bp-blogs/bp-blogs-functions.php:340
 msgid "%1$s wrote a new post, %2$s"
@@ -3779,7 +3777,7 @@ msgstr "%1$s comentou no artigo, %2$s"
 
 #: bp-blogs/bp-blogs-activity.php:128 bp-blogs/bp-blogs-functions.php:338
 msgid "%1$s wrote a new post, %2$s, on the site %3$s"
-msgstr "%1$s escreveu um novo artigo, %2$s, no sítio %3$s "
+msgstr "%1$s escreveu um novo artigo, %2$s, no site %3$s "
 
 #: bp-activity/bp-activity-actions.php:157
 msgid "Activity deleted successfully"
@@ -4009,7 +4007,7 @@ msgstr "Email de Aviso"
 #: bp-members/bp-members-functions.php:1142
 #: bp-members/bp-members-functions.php:1824
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
-msgstr "<strong>ERRO</strong>:  A sua conta foi marcada como <em>spammer</em>."
+msgstr "<strong>ERRO</strong>:  A sua conta foi marcada como spammer."
 
 #: bp-members/bp-members-functions.php:1730
 msgid ""
@@ -4540,7 +4538,7 @@ msgid ""
 "as long as you keep the bb-config.php file in the same location."
 msgstr ""
 "BuddyPress irá agora usar a sua cópia interna do bbPress para executar os "
-"fóruns no seu sítio. Se quiser, pode remover os ficheiros de instalação "
+"fóruns no seu site. Se quiser, pode remover os ficheiros de instalação "
 "antigos do bbPress, desde que mantenha o ficheiro bb-config.php no mesmo "
 "local."
 
@@ -4812,7 +4810,7 @@ msgstr "%s ainda não criou ligações de amigos"
 #: bp-friends/bp-friends-template.php:156
 msgid "There aren't enough site members to show a random sample just yet."
 msgstr ""
-"Aina não há membros do sítio suficientes para mostrar uma amostra aleatória."
+"Aina não há membros do site suficientes para mostrar uma amostra aleatória."
 
 #: bp-friends/bp-friends-template.php:173
 msgid "Filter Friends"
@@ -5339,7 +5337,7 @@ msgid ""
 "This is a private group. To join you must be a registered site member and "
 "request group membership."
 msgstr ""
-"Este é um grupo privado. Para entrar deve ser um membro registado no sítio e "
+"Este é um grupo privado. Para entrar deve ser um membro registado no site e "
 "pedir adesão ao grupo."
 
 #: bp-groups/bp-groups-template.php:1915
@@ -5671,12 +5669,12 @@ msgstr "ou prima esc para cancelar."
 
 #: bp-themes/bp-default/activity/index.php:21
 msgid "Site Activity"
-msgstr "Actividade do Sítio"
+msgstr "Actividade do Site"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:19
 #: bp-themes/bp-default/activity/index.php:39
 msgid "The public activity for everyone on this site."
-msgstr "A actividade pública de todos neste sítio."
+msgstr "A actividade pública de todos neste site."
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:29
 #: bp-themes/bp-default/activity/index.php:49
@@ -6064,7 +6062,7 @@ msgid ""
 "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
 "\">correct setup and configuration</a> of a bbPress installation."
 msgstr ""
-"<strong>Atenção Administrador do Sítio:</strong> Fóruns de grupo requerem a "
+"<strong>Atenção Administrador do Site:</strong> Fóruns de grupo requerem a "
 "<a href=\"%s\">definição e configuração correctas </a> de uma instalação "
 "bbPress."
 
@@ -6087,7 +6085,7 @@ msgstr "Este é um grupo público"
 #: bp-themes/bp-default/groups/create.php:64
 #: bp-themes/bp-default/groups/single/admin.php:63
 msgid "Any site member can join this group."
-msgstr "Qualquer membro do sítio pode aderir a este grupo."
+msgstr "Qualquer membro do site pode aderir a este grupo."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:58
 #: bp-templates/bp-legacy/buddypress/groups/create.php:67
@@ -6109,7 +6107,7 @@ msgstr ""
 #: bp-themes/bp-default/groups/single/admin.php:65
 msgid "Group content and activity will be visible to any site member."
 msgstr ""
-"Conteúdos e actividade do grupo estarão visíveis a qualquer membro do sítio."
+"Conteúdos e actividade do grupo estarão visíveis a qualquer membro do site."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:64
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:71
@@ -6437,7 +6435,7 @@ msgstr "Enviar Pedido"
 
 #: bp-activity/bp-activity-template.php:3311
 msgid "Site Wide Activity RSS Feed"
-msgstr "Notícias RSS da Actividade de Todo o Sítio"
+msgstr "Notícias RSS da Actividade de Todo o Site"
 
 #: bp-members/bp-members-template.php:1277
 msgid "Activity RSS Feed"
@@ -6570,7 +6568,7 @@ msgid ""
 "account email we will use that, or you can upload an image from your "
 "computer."
 msgstr ""
-"O seu avatar será usado no seu perfil e através do sítio. Se houver um <a "
+"O seu avatar será usado no seu perfil e através do site. Se houver um <a "
 "href=\"http://gravatar.com\">Gravatar</a> associado à sua conta de email "
 "iremos usá-lo, ou pode enviar uma imagem do seu computador."
 
@@ -6610,9 +6608,9 @@ msgid ""
 "\">Gravatar</a> using the same email address as you used to register with "
 "this site."
 msgstr ""
-"O seu avatar será usado no seu perfil e através do sítio. Para mudar o seu "
+"O seu avatar será usado no seu perfil e através do site. Para mudar o seu "
 "avatar, crie uma conta com <a href=\"http://gravatar.com\">Gravatar</a> "
-"usando o mesmo endereço de email que usou para se registar neste sítio."
+"usando o mesmo endereço de email que usou para se registar neste site."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:10
 #: bp-themes/bp-default/members/single/profile/edit.php:10
@@ -6663,7 +6661,7 @@ msgid ""
 "Registering for this site is easy, just fill in the fields below and we'll "
 "get a new account set up for you in no time."
 msgstr ""
-"O registo neste sítio é fácil, basta preencher os campos abaixo e "
+"O registo neste site é fácil, basta preencher os campos abaixo e "
 "imediatamente criaremos a sua conta."
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:30
@@ -6713,7 +6711,7 @@ msgid ""
 "will need to activate your account via the email we have just sent to your "
 "address."
 msgstr ""
-"Criou a sua conta com êxito! Para começar a utilizar este sítio precisará de "
+"Criou a sua conta com êxito! Para começar a utilizar este site precisará de "
 "activar a sua conta através do email que acabámos de enviar para o seu "
 "endereço."
 
@@ -7610,12 +7608,12 @@ msgstr "O Meu Perfil"
 #: bp-members/bp-members-actions.php:51 bp-members/bp-members-admin.php:460
 msgid "User marked as spammer. Spam users are visible only to site admins."
 msgstr ""
-"Utilizador marcado como <em>spammer</em>. Spammers são visíveis apenas para "
-"os administradores do site."
+"Utilizador marcado como spammer. Spammers são visíveis apenas para os "
+"administradores do site."
 
 #: bp-members/bp-members-actions.php:53 bp-members/bp-members-admin.php:454
 msgid "User removed as spammer."
-msgstr "Utilizador removido como <em>spammer</em>."
+msgstr "Utilizador removido como spammer."
 
 #: bp-members/bp-members-actions.php:86
 msgid "%s has been deleted from the system."
@@ -7708,8 +7706,8 @@ msgid ""
 "This user has been marked as a spammer. Only site admins can view this "
 "profile."
 msgstr ""
-"este utilizador foi marcado como <em>spammer</em>. Só os administradores do "
-"sítio podem ver este perfil."
+"este utilizador foi marcado como spammer. Só os administradores do site "
+"podem ver este perfil."
 
 #: bp-core/bp-core-avatars.php:614 bp-core/bp-core-avatars.php:651
 msgid "Upload Failed! Error was: %s"
